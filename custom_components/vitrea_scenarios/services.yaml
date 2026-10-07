@@ -1,0 +1,10 @@
+run_scenario:
+  fields:
+    scenario_id:
+      required: true
+      example: 10
+      selector:
+        number:
+          min: 0
+          max: 255
+          mode: box

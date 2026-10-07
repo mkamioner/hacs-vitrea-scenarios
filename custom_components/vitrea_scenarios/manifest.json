@@ -1,0 +1,14 @@
+{
+  "domain": "vitrea_scenarios",
+  "name": "Vitrea Scenarios",
+  "codeowners": ["@mkamioner"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/mkamioner/hacs-vitrea-scenarios",
+  "integration_type": "hub",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/mkamioner/hacs-vitrea-scenarios/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

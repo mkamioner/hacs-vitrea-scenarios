@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Vitrea V-Box",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the V-Box. Make sure no other client (e.g. the Vitrea app) is holding the connection.",
+      "timeout": "The V-Box did not respond in time.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This V-Box is already configured.",
+      "single_instance_allowed": "Only one Vitrea V-Box can be configured."
+    }
+  },
+  "services": {
+    "run_scenario": {
+      "name": "Run scenario",
+      "description": "Runs a scenario on the Vitrea V-Box.",
+      "fields": {
+        "scenario_id": {
+          "name": "Scenario ID",
+          "description": "Numeric scenario ID as configured on the V-Box."
+        }
+      }
+    }
+  }
+}
